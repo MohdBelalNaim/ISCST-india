@@ -1,0 +1,90 @@
+.hero-section-wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+.info-section-wrapper{
+    background-color: #F4F6FC;
+    padding: 24px;
+}
+.info-title{
+    font-weight: bold;
+    padding: 14px 0px;
+}
+.info-content{
+    font-weight: lighter;
+    line-height: 26px;
+    text-align: justify;
+}
+.info-item{
+    margin-bottom: 40px ;
+}
+.about-image{
+    width: 40%;
+}
+.about-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 32px;
+}
+.president-image-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-right: 32px;
+}
+.president-image-wrapper img{
+    margin-top: 20px;
+}
+.social-icons{
+    margin: 10px 10px;
+}
+.president-section-wrapper{
+    padding: 24px;
+}
+.contact-section-wrapper{
+    background-color: #F4F6FC;
+    padding: 24px;
+}
+.go-down{
+    color: white;
+    font-size: 34px;
+}
+.navbar-wrapper{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    gap: 52px;
+    font-size: 14px;
+    padding: 20px;
+}
+.navbar-item{
+    cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    .about-image-wrapper{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .president-image-wrapper{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .info-title{
+        font-size: 14px;
+    }
+    .info-content{
+        font-size: 12px;
+    }
+}
